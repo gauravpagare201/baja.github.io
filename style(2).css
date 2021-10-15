@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'Aquire Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Aquire Regular'), url('Aquire-BW0ox.woff') format('woff');
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+     background-color: #343a40;
+     margin: 0;
+     padding: 0;
+}
+
+.logo1{
+  text-align: center;
+  font-family: aquRegular;
+  
+  
+}
+
+.logo1 h1{
+  position: absolute;
+  top: -10px;
+  left:700px;
+  color:#ffaa00;
+  font-size: 90px;
+  display: inline;
+
+}
+.logo1 h2{
+  position: absolute;
+  top: -40px;
+  left:750px;
+  color:#edf0f1;
+  font-size: 90px;
+  display: inline;
+
+}
+.logo1 h3{
+  position: absolute;
+  top: -40px;
+  left:800px;
+  color:#008000;
+  font-size: 90px;
+  display: inline;
+
+}
+
+.nav_items{
+  position: fixed;
+    background-color: #4cc9f0;
+    height:792px;
+    width:100px;
+    margin:0;
+    padding:0;
+}
+.nav_items ul{
+    list-style: none;
+    position: absolute;
+    top: 40px;
+}
+
+.nav_items li a{
+    display: block;
+    line-height: 130px;
+    list-style: none;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#containerERPMRRPM {
+  position: absolute;
+  top: 101%;
+  left: 10%;
+  width: 41%;
+  height: 20%;
+}
+
+#containerChartSTEER {
+  position: absolute;
+  top: 101%;
+  left: 55%;
+  width: 41%;
+  height: 20%;
+}
+
+#containerERPMSPEED {
+  position: absolute;
+  top: 144.5%;
+  left: 10%;
+  width: 41%;
+  height: 20%;
+}
+
+
+#containerChartFLSUS {
+  position: absolute;
+  top: 14%;
+  left: 10%;
+  width: 41%;
+  height: 20%;
+}
+
+#containerChartFRSUS {
+  position: absolute;
+  top: 57.5%;
+  left: 10%;
+  width: 41%;
+  height: 20%;
+}
+
+#containerChartRLSUS {
+  position: absolute;
+  top: 14%;
+  left: 55%;
+  width: 41%;
+  height: 20%;
+}
+
+#containerChartRRSUS {
+  position: absolute;
+  top: 57.5%;
+  left: 55%;
+  width: 41%;
+  height: 20%;
+}
+
+#containerChartLSUS {
+  position: absolute;
+  top: 144.5%;
+  left: 55%;
+  width: 41%;
+  height: 20%;
+}
+
+.title{
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.title h1{
+  position: absolute;
+  top: 1125px;
+  left:1000px;
+  color:#37A4DD;
+  font-size: 15px;
+  display: inline;
+}

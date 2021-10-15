@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Aquire Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Aquire Regular'), url('Aquire-BW0ox.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Bimbo-Regular';
+    src: url('/assets/fonts/Bimbo-Regular.ttf.woff') format('woff'),
+        url('/assets/fonts/Bimbo-Regular.ttf.svg') format('svg'),
+        url('/assets/fonts/Bimbo-Regular.ttf.eot'),
+        url('/assets/fonts/webfonts.ffonts.net.htm') format('embedded-opentype');
+    font-style: normal;
+}
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+     background-color: #343a40;
+    
+}
+.logo1{
+    text-align: center;
+    font-family: aquRegular;
+    
+    
+}
+
+.logo1 h1{
+    position: absolute;
+    top: 30px;
+    left:730px;
+    color:#ffaa00;
+    font-size: 90px;
+    display: inline;
+
+}
+.logo1 h2{
+    position: absolute;
+    top: 20px;
+    left:780px;
+    color:#edf0f1;
+    font-size: 90px;
+    display: inline;
+
+}
+.logo1 h3{
+    position: absolute;
+    top: 30px;
+    left:830px;
+    color:#008000;
+    font-size: 90px;
+    display: inline;
+
+}
+.nav_items{
+    background-color: #4cc9f0;
+    height:792px;
+    width:100px;
+    margin:0;
+    padding:0;
+}
+.nav_items ul{
+    list-style: none;
+    position: absolute;
+    top: 40px;
+}
+
+.nav_items li a{
+    display: block;
+    line-height: 130px;
+    list-style: none;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-weight: 800;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#containerERPM {
+   
+    position: absolute;
+    margin-top:-400px;
+  margin-left:200px;
+
+}
+
+#containerRRPM {
+    position: absolute;
+    margin-top:-400px;
+  margin-left:1100px;
+
+}
+
+#containerSPEED {
+   
+    position: absolute;
+    margin-top:-750px;
+  margin-left:200px;
+    
+}
+
+#containerSTEER {
+   
+    position: absolute;
+    margin-top:-750px;
+  margin-left:1100px;
+
+}
+
+#containerFLSUS {
+    position: absolute;
+  margin-top:-630px;
+    margin-left:600px;
+
+}
+
+#containerFRSUS {
+   
+    position: absolute;
+  margin-top:-630px;
+    margin-left:880px;
+    }
+
+#containerRLSUS {
+    position: absolute;
+    margin-top:-320px;
+    margin-left:600px;
+  }
+        
+#containerRRSUS {
+   
+    position: absolute;
+    margin-top:-320px;
+    margin-left:880px;
+            
+            }
+            
+ #containerERPMRRPM {
+
+position: absolute;
+margin-top:20px;
+margin-left:480px;
+        
+ }
+
+#containerERPMSPEED {
+    position: absolute;
+    margin-top:20px;
+    margin-left:880px;          
+ }
+
+ #containerChartSTEER {
+position: absolute;
+margin-top:500px;
+margin-left:880px;
+  }
+                                   
+
+

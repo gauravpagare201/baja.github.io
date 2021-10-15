@@ -1,0 +1,290 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+<title>main</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+<link rel="stylesheet"type="text/css"href="styleindex.css">
+<link rel="stylesheet"href= "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        
+        
+
+        <div class="logo">
+            <div class="logo1">
+                
+                <h1>T</h1>
+                <h2>B</h2>
+                <h3>R</h3>
+            </div>
+            <div class="logo2">
+                <h2>DASHBOARD</h2>
+            </div>
+        </div> 
+        <div class="icon">  
+            <nav>
+                <ul class="nav_items">
+                    <li><a class="but" href="#">MAP</a></li>
+                    <li><a class="but" href="#">GRAPH</a></li>
+                    <li><a class="but" href="#">GAUGES</a></li>
+                    <li><a class="but" href="#">LOGOUT</a></li>
+                    
+                    
+
+                </ul>
+            </nav>
+        </div> 
+       
+
+        <div class="one">
+            <div class="FL">
+                <h2>FLSUS</h2>
+                <div id="flsus"></div>
+                
+            </div>
+            <div class="FR">
+                <h2>FRSUS</h2>
+                <div id="frsus"></div>
+            </div>
+            <div class="RL">
+                <h2>RLSUS</h2>
+                <div id="rlsus"></div>
+            </div>
+            <div class="RR">
+                <h2>RRSUS</h2>
+                <div id="rrsus"></div>
+            </div>
+            <div class="rpm"><p>RPM</p></div>
+        </div>
+        <div class="two">
+            <div class="EN">
+                <h2>ENGINE</h2>
+                <div class="v1">
+                     <div id="value1"></div>
+                </div>
+            </div>
+            <div class="CV">
+                <h2>CVT</h2>
+                <div class="v2">
+                     <div id="value2"></div>
+                </div>
+            </div>
+            <div class="SP">
+                <h2>SPEED</h2>
+                <div class="v3">
+                     <div id="value3"></div>
+                </div>
+            </div>
+            <div class="ST">
+                <h2>STEER</h2>
+                <div class="v4">
+                     <div id="value4"></div>
+                </div>
+            </div>
+        </div>
+        <div class="three">
+            <div class="lap">
+                <h1>LAP</h1>
+            </div>
+            <div class="count">
+                <h1>COUNT</h1>
+            </div>
+            <div class="digit">
+            <div id="num"></div>
+            </div>
+            <div class="pit">
+                <h1>PIT VAL</h1>
+                
+            </div>
+            
+            <div class="nor">
+                <h1>NOR VAL</h1>
+                
+            </div>
+            <div class="fail">
+                <h1>FAIL VAL</h1>
+                
+            </div>
+
+            <div id="c1"></div>
+            <div id="c2"></div>
+            <div id="c3"></div>
+        </div>
+
+   
+
+
+  <div class="top"> 
+      
+    </div>
+    <div class="containerFUEL">
+      
+<canvas id="FUEL" data-type="radial-gauge"
+data-width="300"
+data-height="300"
+data-units="LEVEL"
+data-color-units="#A6CEE3"
+data-title="FUEL"
+data-color-title="#A6CEE3"
+data-min-value="0"
+data-start-angle="90"
+data-ticks-angle="180"
+data-value-box="false"
+data-max-value="100".
+data-major-ticks="0,20,40,60,80,100"
+data-minor-ticks="2"
+data-stroke-ticks="true"
+data-highlights='[
+    {"from": 0, "to": 20, "color": "rgba(255,0,0)"},{"from": 20, "to": 100, "color": "rgba(0,255,0)"}
+]'
+data-color-plate="#343a40" 
+data-color-border-shadow="false" 
+data-borders="false" 
+data-needle-type="arrow"
+data-needle-width="2" 
+data-needle-circle-size="7" 
+data-needle-circle-outer="true"
+data-needle-circle-inner="false" 
+data-animation-duration="1500" 
+data-animation-rule="linear"
+data-color-numbers="#A6CEE3" 
+data-font-numbers-size="15" A6CEE3
+data-font-value="Roboto"
+data-value-box="true" 
+data-color-value-box-background="#A6CEE3"
+data-color-value-box-shadow="#A6CEE3" 
+data-value-box-border-radius="15"
+data-value-box-stroke="0" 
+data-color-needle="#fff" 
+data-color-needle-end="#"
+data-color-title="#A6CEE3" 
+data-color-units="#A6CEE3" 
+data-color-needle-shadow-up="#103D89"
+data-color-needle-shadow-down="#103D89"></canvas>
+ </div> 
+  
+ 
+
+
+    <div class="map"></div>
+    <div class="grap">
+      <div class="sus1">
+        <p>FLSUS & FRSUS</p>
+      </div>
+      <div class="and">
+        <p>&</p>
+      </div>
+      <div class="sus2">
+        <p>RLSUS & RRSUS</p>
+      </div>
+      <div class="vs">
+        <p>VS</p>
+      </div>
+      <div class="time">
+        <p>Time</p>
+      </div>
+    </div>
+
+
+
+  <div class="page">
+    <div id="containerERPMRRPM">
+          <canvas id="ERPMRRPM"></canvas>
+          </div>
+    <div id="containerERPMSPEED">
+        <canvas id="ERPMSPEED"></canvas>
+          </div>
+    <div id="containerChartFLSUS">
+      <canvas id="chartFLSUS"></canvas>
+  </div>
+  <div id="containerChartFRSUS">
+      <canvas id="chartFRSUS"></canvas>
+  </div>
+  <div id="containerChartRLSUS">
+      <canvas id="chartRLSUS"></canvas>
+  </div>
+  <div id="containerChartRRSUS">
+      <canvas id="chartRRSUS"></canvas>
+  </div>
+      <div id="containerChartLSUS">
+          <canvas id="chartLSUS"></canvas>
+      </div>
+      <div id="containerChartSTEER">
+        <canvas id="chartSTEER"></canvas>
+    </div>
+  
+
+ </div>
+
+
+
+<script>
+      setInterval(function(){
+        $('#value1').load("engine.php").fadeIn("slow");
+      },1000);
+    </script>
+    <script>
+      setInterval(function(){
+        $('#value2').load("cvt.php").fadeIn("slow");
+      },1000);
+    </script>
+    <script>
+      setInterval(function(){
+        $('#value3').load("speed.php").fadeIn("slow");
+      },1000);
+    </script>
+    <script>
+      setInterval(function(){
+        $('#value4').load("steer.php").fadeIn("slow");
+      },1000);
+    </script>
+    <script>
+      setInterval(function(){
+        $('#flsus').load("fl.php").fadeIn("slow");
+      },1000);
+    </script>
+    <script>
+      setInterval(function(){
+        $('#frsus').load("fr.php").fadeIn("slow");
+      },1000);
+    </script>
+    <script>
+      setInterval(function(){
+        $('#rlsus').load("rl.php").fadeIn("slow");
+      },1000);
+    </script>
+    <script>
+      setInterval(function(){
+        $('#rrsus').load("rr.php").fadeIn("slow");
+      },1000);
+    </script>
+
+<script>
+      setInterval(function(){
+        $('#num').load("lapnum.php").fadeIn("slow");
+      },1000);
+    </script>
+    <script>
+      setInterval(function(){
+        $("c1").load("circle.php").fadeIn("slow");
+      },1000);
+    </script>
+     
+    
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+     integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+     crossorigin="" />
+ <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+     integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+     crossorigin=""></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.min.js"></script>
+      <script src="gauge.min.js" async defer></script>
+      <script src="gauge.min (1).js" async defer></script>
+  <script src="logic.js"></script>
+    </body>
+</html>
